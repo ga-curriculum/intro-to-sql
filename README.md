@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, students will learn the basics of SQL and relational databases. They will learn how to create databases and tables, insert and select data, and relate and query data.
 
 ## Prerequisites
 
@@ -16,29 +16,15 @@ tktk Write a short but descriptive summary of the content in this module.
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md)                               | -- | -- | Setting up the development environment  |
 | [Concepts](./concepts/README.md)                         | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered                     |
+| [Creating Databases and Tables](./creating-databases-and-tables/README.md) | -- | -- | tktk skills covered                     |
+| [Inserting and Selecting Data](./inserting-and-selecting-data/README.md) | -- | -- | tktk skills covered                     |
+| [Relating and Querying Data](./relating-and-querying-data/README.md) | -- | -- | tktk skills covered                     |
+| [Modifying and Deleting Data](./modifying-and-deleting-data/README.md) | -- | -- | tktk skills covered                     |
 | **Total content**                                        | -- | -- |                                         |
-
-## Level Up content
-
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-04/README.md) | -- | -- | tktk skills covered                     |
-| **Total Level Up content**                               | -- | -- |                                         |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
