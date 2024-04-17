@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - tktk Microlesson Name](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a database and tables to store related data.
 
@@ -15,14 +15,14 @@ To represent this relationship in our database, we must create a new table calle
 
 We will want to follow this structure for our `musicians` table.
 
-| Column Name | Data Type | Constraints |
-|-------------|-----------|-------------|
-| id          | SERIAL    | PRIMARY KEY |
+| Column Name | Data Type | Constraints          |
+| ----------- | --------- | -------------------- |
+| id          | SERIAL    | PRIMARY KEY          |
 | band_id     | INTEGER   | REFERENCES bands(id) |
-| name        | VARCHAR   | NOT NULL    |
-| age         | INTEGER   | NOT NULL    |
-| sings       | BOOLEAN   |             |
-| dances      | BOOLEAN   |             |
+| name        | VARCHAR   | NOT NULL             |
+| age         | INTEGER   | NOT NULL             |
+| sings       | BOOLEAN   |                      |
+| dances      | BOOLEAN   |                      |
 
 To create the `musicians` table, use the `CREATE TABLE` command:
 

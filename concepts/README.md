@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Concepts](./assets/hero.png)
+# ![Intro to SQL - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to explain the concepts of databases and SQL.
 
@@ -50,19 +50,19 @@ A table in a relational database holds data for a particular _data resource_, fo
 
 TABLE: **artists**
 
-| id (PK)       | name           | nationality |
-|----------|----------------|-------------|
-| 1        | Prince         | American    |
-| 2        | Sir Elton John | British     |
+| id (PK) | name           | nationality |
+| ------- | -------------- | ----------- |
+| 1       | Prince         | American    |
+| 2       | Sir Elton John | British     |
 
 TABLE: **songs**
 
-| id (PK)    | name                | year_released | artist_id (FK) |
-|--------|---------------------|---------------|-----------|
-| 1      | Tiny Dancer         | 1971          | 2         |
-| 2      | Little Red Corvette | 1982          | 1         |
-| 3      | Raspberry Beret     | 1985          | 1         |
-| 4      | Your Song           | 1970          | 2         |
+| id (PK) | name                | year_released | artist_id (FK) |
+| ------- | ------------------- | ------------- | -------------- |
+| 1       | Tiny Dancer         | 1971          | 2              |
+| 2       | Little Red Corvette | 1982          | 1              |
+| 3       | Raspberry Beret     | 1985          | 1              |
+| 4       | Your Song           | 1970          | 2              |
 
 ### Rows (Records)
 
@@ -93,7 +93,7 @@ PostgreSQL has [many data types](https://www.postgresql.org/docs/11/datatype.htm
 Typical constraints for a column include:
 
 - `PRIMARY KEY`: column, or group of columns, uniquely identify a row
-- `REFERENCES` (Foreign Key): value in a column must match the primary key in another table 
+- `REFERENCES` (Foreign Key): value in a column must match the primary key in another table
 - `NOT NULL`: column must have a value; it cannot be empty (null)
 - `UNIQUE`: data in this column must be unique among all rows in the table
 

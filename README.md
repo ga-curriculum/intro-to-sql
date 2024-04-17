@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Intro to SQL](./assets/tktk-hero.png)
 
 ## About
 
@@ -6,21 +6,20 @@ In this module, students will learn the basics of SQL and relational databases. 
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Intro to the CL
+- Must have PostreSQL installed locally
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                               | -- | -- | Setting up the development environment  |
-| [Concepts](./concepts/README.md)                         | -- | -- | tktk skills covered                     |
-| [Creating Databases and Tables](./creating-databases-and-tables/README.md) | -- | -- | tktk skills covered                     |
-| [Inserting and Selecting Data](./inserting-and-selecting-data/README.md) | -- | -- | tktk skills covered                     |
-| [Relating and Querying Data](./relating-and-querying-data/README.md) | -- | -- | tktk skills covered                     |
-| [Modifying and Deleting Data](./modifying-and-deleting-data/README.md) | -- | -- | tktk skills covered                     |
-| **Total content**                                        | -- | -- |                                         |
+| Lesson                                                                     | Video Time | Video | Skills                                 |
+| -------------------------------------------------------------------------- | :--------: | :---: | -------------------------------------- |
+| [Setup](./setup/README.md)                                                 |     --     |  --   | Setting up the development environment |
+| [Concepts](./concepts/README.md)                                           |     --     |  --   | tktk skills covered                    |
+| [Creating Databases and Tables](./creating-databases-and-tables/README.md) |     --     |  --   | tktk skills covered                    |
+| [Inserting and Selecting Data](./inserting-and-selecting-data/README.md)   |     --     |  --   | tktk skills covered                    |
+| [Relating and Querying Data](./relating-and-querying-data/README.md)       |     --     |  --   | tktk skills covered                    |
+| [Modifying and Deleting Data](./modifying-and-deleting-data/README.md)     |     --     |  --   | tktk skills covered                    |
+| **Total content**                                                          |     --     |  --   |                                        |
 
 ## References
 

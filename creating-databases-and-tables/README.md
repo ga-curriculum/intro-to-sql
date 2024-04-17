@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - tktk Microlesson Name](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a database and a table to store data.
 
@@ -35,11 +35,10 @@ Now that we have a database let's create a table to store our data. We will make
 We will want to follow this structure for our `bands` table.
 
 | Column Name | Data Type | Constraints |
-|-------------|-----------|-------------|
+| ----------- | --------- | ----------- |
 | id          | SERIAL    | PRIMARY KEY |
 | name        | VARCHAR   | NOT NULL    |
 | genre       | VARCHAR   |             |
-
 
 To create the `bands` table, use the `CREATE TABLE` command:
 
