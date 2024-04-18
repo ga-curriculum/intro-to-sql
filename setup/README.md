@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Setup](./assets/hero.png)
+# ![Intro to SQL - Setup](./assets/hero.png)
 
 ## Setup
 

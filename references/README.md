@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - References](./assets/hero.png)
+# ![Intro to SQL - References](./assets/hero.png)
 
 ## Lesson references
 

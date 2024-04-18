@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - Modifying and Deleting Data](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to modify and delete data in a database.
 

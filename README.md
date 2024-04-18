@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Intro to SQL](./assets/hero.png)
 
 ## About
 

@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - Relating and Querying Data](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a database and tables to store related data.
 
@@ -6,7 +6,7 @@
 
 We currently have a `bands` table that stores information about different bands. These bands can have many musicians. This relationship is known as a **one-to-many** relationship. We can think through this relationship as:
 
-tktk - Hunter can you take that diagram you made for the `bands` table and add a new table called `musicians` that is connected to the `bands` table with the erd one to many connector line
+![One-to-many](./assets/music-bands-musicians.png)
 
 **A _band_ and many _musicians_, and** <br>
 **A _musician_ belongs to a _band_**

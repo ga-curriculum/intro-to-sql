@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Concepts](./assets/hero.png)
+# ![Intro to SQL - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to explain the concepts of databases and SQL.
 
@@ -41,8 +41,7 @@ Schemas define the databases:
 
 The primary container for data in a relational database is a **table**:
 
-tktk - Hunter this is taken from Jim's content, idk if we want to change this on over to one of your wonderful graphics or not.
-<img src="https://i.imgur.com/uL3fvU4.png">
+![Relational database table ](./assets/table.png)
 
 As you can see, database tables look much like spreadsheets since they consist of columns and rows.
 

@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - Inserting and Selecting Data](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to insert data into a table and query data from a table.
 
