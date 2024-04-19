@@ -2,12 +2,7 @@
 
 ## Lesson references
 
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-
-## Level Up references
-
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
+- [SQL (Structured Query Language)](https://developer.mozilla.org/en-US/docs/Glossary/SQL)
+- [PostgreSQL](https://www.postgresql.org/)
+- [DB-Engines Ranking](https://db-engines.com/en/ranking)
+- [E.F. Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd)
