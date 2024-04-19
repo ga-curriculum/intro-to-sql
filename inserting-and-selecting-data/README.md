@@ -1,10 +1,10 @@
-# ![Intro to SQL - tktk Microlesson Name](./assets/hero.png)
+# ![Intro to SQL - Inserting and Selecting Data](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to insert data into a table and query data from a table.
 
 ## Inserting Data
 
-We have a database and a table, but it's empty! Using the `INSERT INTO` command, we can add a single or multiple rows to a table. The syntax for the `INSERT INTO` command is as follows:
+We now have a database and table established, but it's empty! Using the `INSERT INTO` command, we can add a single row or multiple rows into a table. The syntax for the `INSERT INTO` command is as follows:
 
 **`INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...)[, (value1, value2, ...), ...];`**
 
@@ -18,7 +18,7 @@ INSERT INTO bands (name, genre) VALUES ('The Beatles', 'Rock');
 INSERT INTO bands (name, genre) VALUES ('The Rolling Stones', 'Rock'), ('The Who', 'Rock');
 ```
 
-> 👀 We are not specifying the `id` column when inserting data into the `bands` table. Since the `id` column is a `SERIAL` data type, PostgreSQL will automatically increment the value each time a new row is inserted.
+> 👀 Note: We are not specifying the `id` column when inserting data into the `bands` table. Since the `id` column is a `SERIAL` data type, PostgreSQL will automatically increment the value each time a new row is inserted.
 
 ## Selecting Data
 
@@ -36,14 +36,16 @@ SELECT * FROM bands;
 
 You should see the data you inserted into the `bands` table in the terminal.
 
-Some standard clauses that can be used with the `SELECT` command are:
+### Selecting data with SELECT *clauses*
 
-- `WHERE`: Filters the rows returned based on a condition.
-- `ORDER BY`: Sorts the rows returned based on a column.
-- `LIMIT`: Limits the number of rows returned.
-- `COUNT`: Returns the number of rows returned.
+The `SELECT` command is foundational in SQL for retrieving data from databases. To make your queries more precise and efficient, you can use several standard clauses with `SELECT`:
 
-Let's see some of these clauses in action:
+- `WHERE`: Filters the returned rows based on a condition.
+- `ORDER BY`: Sorts the returned rows based on a column.
+- `LIMIT`: Limits the number of returned rows.
+- `COUNT`: Returns the number of returned rows.
+
+Let's look at how these clauses are used in real SQL queries:
 
 ```sql
 -- Query bands where the genre is 'Rock'
@@ -59,4 +61,4 @@ SELECT * FROM bands LIMIT 2;
 SELECT COUNT(*) FROM bands;
 ```
 
-While the `SELECT` command may not seem very powerful at such a small scale, as you work with more extensive databases and more complex queries, you will see the true power of SQL.
+While the `SELECT` command might seem straightforward, its power becomes apparent when dealing with larger databases. With the right clauses, `SELECT` can help you efficiently query vast amounts of data, extract meaningful insights, and perform complex data manipulations. 
