@@ -6,7 +6,9 @@
 
 We now have a database and table established, but it's empty! Using the `INSERT INTO` command, we can add a single row or multiple rows into a table. The syntax for the `INSERT INTO` command is as follows:
 
-**`INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...)[, (value1, value2, ...), ...];`**
+```sql
+INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...)[, (value1, value2, ...), ...];
+```
 
 Let's add some bands to the `bands` table:
 
@@ -24,7 +26,9 @@ INSERT INTO bands (name, genre) VALUES ('The Rolling Stones', 'Rock'), ('The Who
 
 Now that we have data in our `bands` table, we can use the `SELECT` command to query the data. The syntax for the `SELECT` command is as follows:
 
-**`SELECT column1, column2, ... FROM table_name;`**
+```sql
+SELECT column1, column2, ... FROM table_name;
+```
 
 Let's query all the data from the `bands` table:
 
