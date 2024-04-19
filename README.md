@@ -1,4 +1,4 @@
-# ![Intro to SQL](./assets/tktk-hero.png)
+# ![Intro to SQL](./assets/hero.png)
 
 ## About
 

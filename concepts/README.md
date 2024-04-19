@@ -34,6 +34,18 @@ These are the fundamental structural components of a relational database:
 
 tktk - Hunter this is taken from Jim's content, idk if we want to change this or use it?
 
+<<<<<<< HEAD
 <img src="https://i.imgur.com/uL3fvU4.png">
+=======
+- Tables, including the number and data type of each column
+- Indexes for efficient access to data
+- Constraints (rules, such as whether a field can be null or not)
+
+### Tables
+
+The primary container for data in a relational database is a **table**:
+
+![Relational database table ](./assets/table.png)
+>>>>>>> main
 
 Understanding the relationship between tables, rows, and columns is important for working with relational databases. These elements work together to store data in an organized and accessible manner, making relational databases a staple in large scale data management across various industries.

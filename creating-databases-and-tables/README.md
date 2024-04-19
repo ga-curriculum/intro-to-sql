@@ -8,7 +8,7 @@ During this lesson, we will use the PostgreSQL command-line tool. Before proceed
 
 Now that we know a little more about SQL and relational databases, let's create a new database to store some data. We will start with a database called `music` with a table called `bands`.
 
-tktk - Hunter can you add a diagram here showing the relationship between the database and the table? Like a large box labeled 'music' with a smaller box inside labeled 'bands'.
+![Database & table](./assets/music-bands.png)
 
 Once in the PostgreSQL command line tool, you can create a new database using the `CREATE DATABASE` command. Let's create a database called `music`:
 

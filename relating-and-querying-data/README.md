@@ -6,7 +6,7 @@
 
 We currently have a `bands` table that stores information about different bands. These bands can have many musicians. This relationship is known as a **one-to-many** relationship. We can think through this relationship as:
 
-tktk - Hunter can you take that diagram you made for the `bands` table and add a new table called `musicians` that is connected to the `bands` table with the erd one to many connector line
+![One-to-many](./assets/music-bands-musicians.png)
 
 **One _band_ has many _musicians_, and** <br>
 **One _musician_ belongs to a _band_**
