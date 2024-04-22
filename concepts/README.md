@@ -32,20 +32,6 @@ These are the fundamental structural components of a relational database:
 - **Rows**: Each row in a table represents a unique instance or record of the entity being stored. For example, each row would represent a single employee in a table of employees.
 - **Columns**: Columns define the specific attributes or fields of the data entity. For example, in a table of employees you could have columns for employee attributes such as `name`, `role`, and `start_date`. Every entry in the same column in a table must conform to the same data type. For example, every entry in the `name` column must be a string, and every entry in the `start_date` column must be a date.
 
-tktk - Hunter this is taken from Jim's content, idk if we want to change this or use it?
-
-<<<<<<< HEAD
-<img src="https://i.imgur.com/uL3fvU4.png">
-=======
-- Tables, including the number and data type of each column
-- Indexes for efficient access to data
-- Constraints (rules, such as whether a field can be null or not)
-
-### Tables
-
-The primary container for data in a relational database is a **table**:
-
 ![Relational database table ](./assets/table.png)
->>>>>>> main
 
 Understanding the relationship between tables, rows, and columns is important for working with relational databases. These elements work together to store data in an organized and accessible manner, making relational databases a staple in large scale data management across various industries.
