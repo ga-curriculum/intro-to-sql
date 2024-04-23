@@ -10,24 +10,24 @@ psql
 
 You should see a prompt that looks like this:
 
-```bash
-psql (14.9 (Homebrew))
+```postgres
+psql (16.2 (Homebrew))
 Type "help" for help.
 
 username=#
 ```
 
-> The version number, `(14.9 (Homebrew))`, may be different on your machine. You are in the PostgreSQL command line tool if you can see your username followed by a `#`.
+> The version number, `(16.2 (Homebrew))`, may be different on your machine. You are in the PostgreSQL command line tool if you can see your username followed by a `#`.
 
 To close the PostgreSQL command line tool, type `\q` and press `Enter`:
 
-```bash
+```postgres
 \q
 ```
 
 ## Optional Setup Instructions
 
-If you would like to take notes or save SQL commands for later, pen your Terminal application and navigate to your **`~/code/ga/lectures`** directory:
+If you would like to save SQL commands for later, open another Terminal window and navigate to your **`~/code/ga/lectures`** directory:
 
 ```bash
 cd ~/code/ga/lectures
@@ -40,13 +40,7 @@ mkdir intro-to-sql
 cd intro-to-sql
 ```
 
-To create a new file called **`notes.md`**, use the `touch` command:
-
-```bash
-touch notes.md
-```
-
-To create a SQL file called **`queries.sql`**, use the `touch` command:
+Create a SQL file called **`queries.sql`**:
 
 ```bash
 touch queries.sql
@@ -57,3 +51,5 @@ Open the contents of the directory in VSCode:
 ```bash
 code .
 ```
+
+> 🧠 You can add comments to your SQL file by adding `--` to indicate the start of a comment, which may help to take notes!

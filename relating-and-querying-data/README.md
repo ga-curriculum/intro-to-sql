@@ -1,6 +1,6 @@
 # ![Intro to SQL - Relating and Querying Data](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to understand and implement one-to-many relationships in SQL databases, apply conditional logic with the `WHERE` clause to refine their data retrieval and effectively use the `JOIN` command to query related data across tables.
+**Learning objective:** By the end of this lesson, students will be able to understand and implement one-to-many relationships in SQL databases, apply conditional logic with the `WHERE` clause to refine their data retrieval, and effectively use the `JOIN` command to query related data across tables.
 
 ## One to Many Relationships in SQL
 
@@ -8,8 +8,9 @@ We currently have a `bands` table that stores information about different bands.
 
 ![One-to-many](./assets/music-bands-musicians.png)
 
-**One _band_ has many _musicians_, and** <br>
-**One _musician_ belongs to a _band_**
+**One *band* has many *musicians*, and**
+
+**One *musician* belongs to a *band***
 
 To represent this relationship in our database, we must create a new table called `musicians` that will store information about different musicians. The `musicians` table will have a ***foreign key*** referencing the `bands` table.
 
@@ -41,13 +42,28 @@ Let's insert the musicians for the bands we have in the `bands` table:
 
 ```sql
 -- Insert musicians for The Beatles
-INSERT INTO musicians (band_id, name, age, sings, dances) VALUES (1, 'John Lennon', 40, null, FALSE), (1, 'Paul McCartney', 39, TRUE, FALSE), (1, 'George Harrison', 38, TRUE, null), (1, 'Ringo Starr', 41, FALSE, TRUE);
+INSERT INTO musicians (band_id, name, age, sings, dances) 
+VALUES 
+(1, 'John Lennon', 40, null, FALSE),
+(1, 'Paul McCartney', 39, TRUE, FALSE),
+(1, 'George Harrison', 38, TRUE, null),
+(1, 'Ringo Starr', 41, FALSE, TRUE);
 
 -- Insert musicians for The Rolling Stones
-INSERT INTO musicians (band_id, name, age, sings, dances) VALUES (2, 'Mick Jagger', 38, TRUE, null), (2, 'Keith Richards', 39, TRUE, FALSE), (2, 'Charlie Watts', 40, null, FALSE), (2, 'Ronnie Wood', 41, TRUE, TRUE);
+INSERT INTO musicians (band_id, name, age, sings, dances) 
+VALUES 
+(2, 'Mick Jagger', 38, TRUE, null),
+(2, 'Keith Richards', 39, TRUE, FALSE),
+(2, 'Charlie Watts', 40, null, FALSE),
+(2, 'Ronnie Wood', 41, TRUE, TRUE);
 
 -- Insert musicians for The Who
-INSERT INTO musicians (band_id, name, age, sings, dances) VALUES (3, 'Roger Daltrey', 38, TRUE, TRUE), (3, 'Pete Townshend', 39, null, FALSE), (3, 'John Entwistle', 40, TRUE, FALSE), (3, 'Keith Moon', 41, null, TRUE);
+INSERT INTO musicians (band_id, name, age, sings, dances) 
+VALUES 
+(3, 'Roger Daltrey', 38, TRUE, TRUE),
+(3, 'Pete Townshend', 39, null, FALSE),
+(3, 'John Entwistle', 40, TRUE, FALSE),
+(3, 'Keith Moon', 41, null, TRUE);
 ```
 
 > 🧠 The `null` value represents unknown or missing data. Since the `sings` and `dances` columns are `BOOLEAN` data types without any constraints, we can represent the data using `TRUE`, `FALSE`, or `null`.
@@ -164,14 +180,13 @@ The `JOIN` command is a powerful tool that combines related data from multiple t
 - `RIGHT JOIN` or `RIGHT OUTER JOIN`: Returns all rows from the right table and the matched rows from the left table
 - `FULL JOIN` or `FULL OUTER JOIN`: Returns rows when there is a match in one of the tables
 
-
 ## Types of JOINs
 
 The `JOIN` command is a powerful tool that combines related data from multiple tables. You can use different types of joins, such as:
 
-- **`INNER JOIN`**: This is the default `JOIN`, returning rows only when there is a match found in both tables.
-- **`LEFT JOIN` (or `LEFT OUTER JOIN`)**: Returns all rows from the left table, and the matched rows from the right table; if there is no match, the result is `NULL` on the side of the right table.
-- **`RIGHT JOIN` (or `RIGHT OUTER JOIN`)**: Returns all rows from the right table, and the matched rows from the left table; if there is no match, the result is `NULL` on the side of the left table.
+- **`INNER JOIN`**: This is the default `JOIN`, returning rows only when a match is found in both tables.
+- **`LEFT JOIN` (or `LEFT OUTER JOIN`)**: Returns all rows from the left table and the matched rows from the right table; if there is no match, the result is `NULL` on the side of the right table.
+- **`RIGHT JOIN` (or `RIGHT OUTER JOIN`)**: Returns all rows from the right table and the matched rows from the left table; if there is no match, the result is `NULL` on the side of the left table.
 - **`FULL JOIN` (or `FULL OUTER JOIN`)**: Returns rows when there is a match in at least one of the tables. If there is no match, the result is `NULL` for the unmatched side of either table.
 
 Each of these `JOIN` types can be used depending on the specific requirements of your query and the relationships between your tables.
