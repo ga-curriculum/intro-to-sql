@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to modify and delete data in a database.
 
-## Modifying or updating Data
+## Modifying or updating data
 
 We have seen how to insert data into a table, but what if we need to update existing data? The `UPDATE` command is used to modify existing data in a table. The syntax for the `UPDATE` command is as follows:
 
@@ -31,7 +31,7 @@ UPDATE bands SET genre = 'Rock and Roll' WHERE name = 'The Rolling Stones';
 UPDATE bands SET genre = 'Rock and Blues' WHERE name = 'The Who';
 ```
 
-## Deleting Data
+## Deleting data
 
 The `DELETE` command allows you to remove one or more rows from a table based on a specific condition. This is useful for cleaning up data or removing unnecessary records.
 
