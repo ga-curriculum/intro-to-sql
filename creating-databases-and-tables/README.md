@@ -46,7 +46,7 @@ Our `bands` table will have three columns: `id`, `name`, and `genre`.
 | ----------- | --------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | id          | SERIAL    | PRIMARY KEY | A unique identifier for each band. We use the SERIAL data type here, which automatically generates a new, incremental number for each entry, ensuring each band has a unique ID.        |
 | name        | VARCHAR   | NOT NULL    | We've chosen VARCHAR as the data type, which allows us to store strings of varying lengths. The NOT NULL constraint ensures that every band entered into the database must have a name. |
-| genre       | VARCHAR   |             | This is also VARCHAR. However, this column has no constraints so providing thid data is optional.                                                                                       |
+| genre       | VARCHAR   |             | This is also VARCHAR. However, this column has no constraints so providing this data is optional.                                                                                       |
 
 To create this table in PostgreSQL, we use the `CREATE TABLE` command.
 
