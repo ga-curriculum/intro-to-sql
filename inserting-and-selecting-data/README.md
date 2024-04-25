@@ -14,6 +14,8 @@ VALUES
 
 Let's add some bands to the `bands` table:
 
+> 🚨 Notice our use of the single quote (`'`) character below - this is required to indicate the use of a string in SQL!
+
 ```postgres
 -- Insert a single row
 INSERT INTO bands (name, genre) 
