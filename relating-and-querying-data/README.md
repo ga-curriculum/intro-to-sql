@@ -173,13 +173,6 @@ This query selects the name of the band and the musician from the `bands` and `m
 
 You should now see the musicians and the bands they belong to displayed in the terminal.
 
-The `JOIN` command is a powerful tool that combines related data from multiple tables. You can use different types of joins, such as:
-
-- `INNER JOIN`: Returns rows when there is a match in both tables
-- `LEFT JOIN` or `LEFT OUTER JOIN`: Returns all rows from the left table and the matched rows from the right table
-- `RIGHT JOIN` or `RIGHT OUTER JOIN`: Returns all rows from the right table and the matched rows from the left table
-- `FULL JOIN` or `FULL OUTER JOIN`: Returns rows when there is a match in one of the tables
-
 ## Types of JOINs
 
 The `JOIN` command is a powerful tool that combines related data from multiple tables. You can use different types of joins, such as:
