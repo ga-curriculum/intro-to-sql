@@ -8,10 +8,6 @@
 
 It's important to note that while SQL is standardized, its implementation can vary slightly across different Relational Database Management Systems (RDBMS). Common RDBMSs like ***SQLite*** and ***PostgreSQL*** might differ regarding the specific SQL commands they support.
 
-## PostgreSQL and SQL
-
-[PostgreSQL](https://www.postgresql.org/) is an advanced open-source Relational Database Management System (RDBMS) built in 1982 at the University of California, Berkeley. It is known for its robustness, ability to handle large volumes of data, and support for a wide range of SQL functionality. We'll use PostgreSQL throughout this module to demonstrate SQL concepts and practices.
-
 ## Different types of databases
 
 Databases can be categorized into several types with distinct features and uses. According to [DB-Engines Ranking](https://db-engines.com/en/ranking), databases are primarily classified into:
@@ -21,6 +17,10 @@ Databases can be categorized into several types with distinct features and uses.
 - **NoSQL databases**: Organize data in a way that does not adhere to the traditional relational database model, and they typically do not use SQL for querying. These databases are designed to provide greater scalability and flexibility with data models, including key-value, document, and graph bases, which are optimized for specific types of data and access patterns.
 
 We'll use PostgreSQL as our relational database system because it is free and flexible, allowing us to handle data securely and efficiently. It's also widely supported by a large community, making it reliable and adaptable for scaling our applications.
+
+## PostgreSQL and SQL
+
+[PostgreSQL](https://www.postgresql.org/) is an advanced open-source Relational Database Management System (RDBMS) built in 1982 at the University of California, Berkeley. It is known for its robustness, ability to handle large volumes of data, and support for a wide range of SQL functionality.
 
 ## Relational database structure
 
