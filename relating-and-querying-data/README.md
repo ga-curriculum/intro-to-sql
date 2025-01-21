@@ -127,6 +127,9 @@ SELECT name FROM musicians WHERE name LIKE 'J%';
 SELECT name FROM musicians WHERE band_id IN (1, 2);
 
 -- Query musicians that do not sing
+SELECT name FROM musicians WHERE sings = FALSE;
+
+-- Query musicians whose singing ability is undefined
 SELECT name FROM musicians WHERE sings IS NULL;
 
 -- Query musicians who are older than 40 and do dance
