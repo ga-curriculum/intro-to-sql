@@ -1,4 +1,7 @@
-# ![Intro to SQL - Modifying and Deleting Data](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Modifying and Deleting Data</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to modify and delete data in a database.
 

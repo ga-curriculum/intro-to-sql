@@ -1,4 +1,7 @@
-# ![Intro to SQL - Inserting and Selecting Data](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Inserting and Selecting Data</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to insert data into a table and query data from a table.
 

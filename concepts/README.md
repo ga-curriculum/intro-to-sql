@@ -1,4 +1,7 @@
-# ![Intro to SQL - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to explain the concepts of SQL, specifically focusing on PostgreSQL. Students will understand why these skills are crucial in data management and software development.
 

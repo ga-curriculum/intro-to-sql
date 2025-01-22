@@ -1,4 +1,7 @@
-# ![Intro to SQL - Anatomy of a Relational Database](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Anatomy of a Relational Database</span>
+</h1>
 
 ## Schema
 

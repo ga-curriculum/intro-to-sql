@@ -1,13 +1,11 @@
-# ![Intro to SQL](./assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to SQL</span>
+</h1>
 
 ## About
 
 This module is all about learning to use SQL, the go-to language for interacting with relational databases. You'll learn how to set up tables, manage data through inserting, updating, and deleting records, and how to retrieve information with queries. Whether you’re looking to boost your data analysis skills or develop powerful data-driven apps, these skills are the foundation of learning SQL.
-
-## Prerequisites
-
-- Intro to the CLI
-- Must have PostreSQL installed locally
 
 ## Content
 
@@ -26,7 +24,19 @@ This module is all about learning to use SQL, the go-to language for interacting
 
 📖 [Reference Materials](./references/README.md)
 
-## Internal resources
+## Internal
+
+### Prerequisites
+
+- Intro to the CLI
+- Must have PostgreSQL installed locally
+
+### Course landing pages
+
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-sql/canvas-landing-pages/seb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-sql/canvas-landing-pages/fallback.html)
+
+### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
@@ -36,4 +46,4 @@ This module is all about learning to use SQL, the go-to language for interacting
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

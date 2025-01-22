@@ -1,4 +1,7 @@
-# ![Intro to SQL - Creating Databases and Tables](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Creating Databases and Tables</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create a new database and table with PostgreSQL.
 

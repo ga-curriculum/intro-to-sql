@@ -1,4 +1,7 @@
-# ![Intro to SQL - Relating and Querying Data](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL</span>
+  <span class="subhead">Relating and Querying Data</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to understand and implement one-to-many relationships in SQL databases, apply conditional logic with the `WHERE` clause to refine their data retrieval, and effectively use the `JOIN` command to query related data across tables.
 

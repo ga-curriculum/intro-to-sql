@@ -1,4 +1,7 @@
-# ![Intro to SQL](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to SQL</span>
+</h1>
 
 ## About
 
@@ -19,4 +22,4 @@ This module is all about learning to use SQL, the go-to language for interacting
 
 ## References
 
-📖 [Reference Materials](./references/README.md)
+📖 [Reference Materials](../references/README.md)
